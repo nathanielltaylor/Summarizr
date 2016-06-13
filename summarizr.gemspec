@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Intelligently summarize long blocks of text and articles}
   spec.description   = %q{Identifies the most important sections of an article based on the presence of article-specific keywords.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/nathanielltaylor/Summarizr"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
