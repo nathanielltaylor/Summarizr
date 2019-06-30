@@ -1,8 +1,6 @@
 # Summarizr
 
-An old project revisited, finally seems to be working properly.
-
-Summarizr reads through source text and builds a list of the most-used words, which it designates as keywords. It then returns an edited version of the article containing only the sections that make the most use of these keywords. This tends to produce better results the heavier the source text is in proper nouns; it is designed to be used with news media articles but can be adapted for other purposes as well.
+Summarizr reads through source text and builds a list of significant keywords, then returns a shortened version of the article containing only the sections with the highest concentrations of these keywords. I have found that this method produces surprisingly good results despite its simplicity, particularly when most of the keywords are proper nouns (as tends to be true of news media articles).
 
 ## Usage
 ```ruby
